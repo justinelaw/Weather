@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+body {
+    text-align: center;
+    background-image: url(./imgs/background.png);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+input {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+button{
+    background-color: lavenderblush;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+.card{
+    background-color: white;
+    opacity: 0.5;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 15px;
+}
+
+.city{
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.temp{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 15px;
+    text-align: right;
+}
